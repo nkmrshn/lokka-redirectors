@@ -10,4 +10,5 @@ Run these commands:
 
     $ cd public/plugin
     $ git clone git://github.com/nkmrshn/lokka-links.git
+    $ cd lokka-redirectors
     $ bundle exec rake -f public/plugin/lokka-redirectors/Rakefile db:migrate

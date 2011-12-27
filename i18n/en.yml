@@ -8,10 +8,9 @@ en:
   redirect_was_successfully_deleted: Redirect was successfully deleted.
   redirect_from: From
   redirect_to: To
-  redirect:
-    id: ID
-    regex : Regular Expression
-    slug: Slug
-    status_code: HTTP Status Code
-    created_at: Created At
-    updated_at: Updated At
+  redirect_id: ID
+  redirect_regex : Regular Expression
+  redirect_slug: Slug
+  redirect_status_code: HTTP Status Code
+  redirect_created_at: Created At
+  redirect_updated_at: Updated At

@@ -8,10 +8,9 @@ ja:
   redirect_was_successfully_deleted: リダイレクトを削除しました。
   redirect_from: リダイレクト元
   redirect_to: リダイレクト先
-  redirect:
-    id: ID
-    regex : 正規表現
-    slug: スラッグ
-    status_code: HTTPステータスコード
-    created_at: 作成日時
-    updated_at: 更新日時
+  redirect_id: ID
+  redirect_regex : 正規表現
+  redirect_slug: スラッグ
+  redirect_status_code: HTTPステータスコード
+  redirect_created_at: 作成日時
+  redirect_updated_at: 更新日時

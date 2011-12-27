@@ -7,8 +7,8 @@
     %th{:colspan => 2}
   - @redirects.each_with_index do |redirect, i|
     %tr{:class => (i+1).odd? ? 'odd' : 'even'}
-      %td=h redirect_regex
-      %td=h redirect_slug
+      %td=h redirect.regex
+      %td=h redirect.slug
       %td= l redirect.created_at.to_time
       %td
         %a.button{:href => "/admin/plugins/redirectors/#{redirect.id}/edit"}= t.edit

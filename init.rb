@@ -12,7 +12,7 @@ module Lokka
   class App < Sinatra::Base
     configure do
       set :root, File.expand_path('../../../../', __FILE__)
-      set :config => YAML.load(ERB.new(File.read("#{root}/config.yml")).result(binding))
+      set :config => YAML.load(ERB.new(File.read("#{root}/database.default.yml")).result(binding))
     end
 
     configure :production do
